@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="Utf-8">
+        <link rel="stylesheet" type="text/css" href="penzar_ha_bsi.css">
+        <title>Villa Utopia -- Webanwendung</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script type="text/javascript" src="penzar_ha_bsi.js"></script>
+
+        <!--<?php include("besucherzaehler.php"); ?>-->
+
+    </head>
+    <body>
+        <header id="headerOben">
+            <h1>VillaUtopia - Interaktiver Film</h1>
+        </header>
+        <section id="videoanwendung">
+            <br>
+            <div id="videofenster">
+                <!--V1-->
+                <video id="video1"
+                       class="video center videoAktuell"
+                       muted preload="auto"
+                       type="video/mp4" src="Szene_1_gering/S1_p1g.mp4">
+                </video>
+                <!--V2-->
+                <video id="video2"
+                       class="video center"
+                       muted preload="auto"
+                       type="video/mp4" src="Szene_1_gering/S1_p2g.mp4">
+                </video>
+                <!--V3-->
+                <video id="video3"
+                       class="video center"
+                       muted preload="auto"
+                       type="video/mp4" src="Szene_1_gering/S1_p3g.mp4">
+                </video>
+                <!--V4-->
+                <video id="video4"
+                       class="video center"
+                       muted preload="auto"
+                       type="video/mp4" src="Szene_1_gering/S1_p4g.mp4">
+                </video>
+                <!--V5-->
+                <video id="video5"
+                       class="video center"
+                       muted preload="auto"
+                       type="video/mp4" src="Szene_1_gering/S1_p5g.mp4">
+                </video>
+            </div>
+
+            <div id="buttons">
+                <br>
+                <button id="neustart">Start</button>
+                <br>
+                <button id="play">Play</button>
+                <button id="pause">Pause</button>
+            </div>
+
+            <div id="instructions">
+                <h2>Keyboard-keys:</h2>
+                <p>"1"  Handy1   -----  "2"  Handy2   -----   "3"  GoPro   -----   "4"  Seitenansicht   -----   "5"  Zentralperspektive</p>
+            </div>
+            <br>
+
+            <div id="audioDiv">
+                <h2>Audio:</h2>
+                <audio class="audio"
+                       src="audio/VU_Ton_S1.mp3"
+                       type="audio/mp3">
+                </audio>
+            </div>
+
+        </section>
+    </body>	
+</html>
